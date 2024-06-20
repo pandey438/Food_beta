@@ -1,0 +1,24 @@
+{
+  "name": "food_new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "20.7.0",
+    "npm": "10.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "nodemon": "^3.1.2",
+    "router": "^1.3.8",
+    "stripe": "^15.11.0",
+    "uuid": "^10.0.0"
+  }
+}

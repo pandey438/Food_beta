@@ -14,6 +14,11 @@ app.use("/api/pizzas/", pizzasRoute);
 app.use("/api/users/", userRoute);
 app.use("/api/orders/", ordersRoute);
 
+app.use("/", (req, res) => {
+  res.send("Server is running");
+});
+
+
 if (process.env.NODE_ENV === "production") {
   app.use("/", express.static("client/build"));
   app.get("*", (req, res) => {

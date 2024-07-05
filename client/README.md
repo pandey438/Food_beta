@@ -1,70 +1,13 @@
-# Getting Started with Create React App
+•Designed and developed a full-stack web application facilitating pizza ordering and delivery. Administrators have access to manage users, products, and orders, while customers can browse, select, and order pizzas.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+•Utilized React.js for the frontend to create interactive user interfaces and ensure a responsive user experience. Redux-Thunk was employed for efficient state management, enabling seamless updates to the cart and user authentication processes.
 
-## Available Scripts
+•Integrated Stripe for payment processing, allowing customers to securely pay for their orders online. Implemented Redux for managing cart state, allowing users to add pizzas, update quantities, and remove items as needed.
 
-In the project directory, you can run:
+•Implemented user authentication using Node.js and Express.js on the backend, securing access to user-specific data and features. Leveraged MongoDB for data storage, ensuring scalability and efficient data retrieval for orders and user profiles.
 
-### `npm start`
+•Developed user and admin dashboards using React and React Router for navigation. Protected admin routes were implemented to restrict access to administrative functionalities, ensuring data security and integrity.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+•Integrated Stripe payment gateway for seamless and secure online payments, enhancing the user experience by providing a reliable and trusted payment method.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+•Implemented Redux-Thunk for handling asynchronous operations, ensuring smooth interactions with backend services like Stripe for payments and MongoDB for data management.

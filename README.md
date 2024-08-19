@@ -13,3 +13,13 @@
 •Integrated Stripe payment gateway for seamless and secure online payments, enhancing the user experience by providing a reliable and trusted payment method.
 
 •Implemented Redux-Thunk for handling asynchronous operations, ensuring smooth interactions with backend services like Stripe for payments and MongoDB for data management.
+
+Home Page:
+![image](https://github.com/user-attachments/assets/f0a505a4-0aa1-4afc-a183-e0411b689a89)
+Login Page:
+![image](https://github.com/user-attachments/assets/e56b8b96-e019-4c91-855b-988a95bdd1c9)
+Payment gateway:
+![image](https://github.com/user-attachments/assets/3d4c665b-d74e-4e06-9932-39a974d26e93)
+Admin Panel:
+![image](https://github.com/user-attachments/assets/d44e544f-8e0e-42f8-8c7b-b02635279bc5)
+![image](https://github.com/user-attachments/assets/d2be43cf-c5e6-4a01-a318-c416f0b836f1)
